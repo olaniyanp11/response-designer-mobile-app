@@ -1,0 +1,36 @@
+{
+  "cli": {
+    "version": ">= 24.10.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://qmtjpfcpnubgynhhxlkp.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY": "sb_publishable_BjvV4fBWRcPlPskYrc0e-Q_bzupORfx",
+        "EXPO_PUBLIC_NOMA_WEB_ORIGIN": "https://repose-designer.vercel.app"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://qmtjpfcpnubgynhhxlkp.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY": "sb_publishable_BjvV4fBWRcPlPskYrc0e-Q_bzupORfx",
+        "EXPO_PUBLIC_NOMA_WEB_ORIGIN": "https://repose-designer.vercel.app"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://qmtjpfcpnubgynhhxlkp.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY": "sb_publishable_BjvV4fBWRcPlPskYrc0e-Q_bzupORfx",
+        "EXPO_PUBLIC_NOMA_WEB_ORIGIN": "https://repose-designer.vercel.app"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
